@@ -22,9 +22,7 @@ The install and run the test of the code we need a couple of tools:
 ### Installation
 If you are not using Visual studio you can install Xamarin Studio. This can be downloaded add: http://www.monodevelop.com/download/
 Xamarin studio is using mono and is available for Windows, Mac OS and Linux.
-```
-To retrieve the code we need a git client. 
-If the client is installed we can clone the git repository, checkout the code:
+To retrieve the code we need a git client. If the client is installed we can clone the git repository, checkout the code:
 ```bash
 git clone https://github.com/rregeer/dotnet-tdd-example
 ```
@@ -54,7 +52,7 @@ SalesPrice:
 - priceExcludingVat (float)
 - priceIncludingVat (float)
 
-Example of the elastic-search response:
+Example of the elastic-search response in json format:
 ```js
 _source: {
   id: 123456,
@@ -74,7 +72,7 @@ _source: {
 Add brand information to the product.
 If there´s no brand information then the brand is null.
 The brand is in a separate elastic-search index "brand". The type is "brand".
-The brand can also be retrieved separately from the product, so create a seperate brandRetriever taht can be used in the productRetriever.
+The brand can also be retrieved separately from the product, so create a seperate brandRetriever that can be used in the productRetriever.
 
 Brand:
 - brandId (int)
