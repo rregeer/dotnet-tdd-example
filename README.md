@@ -103,7 +103,7 @@ _source: {
   }
 }
 ```
-Example of the brand elastic-search response:
+Example of the brand elastic-search response in json format:
 ```js
 _source: {
   id: 12,
